@@ -16,7 +16,7 @@ provider "grafana" {
 resource "grafana_data_source" "prometheus" {
   name        = "Prometheus"
   type        = "prometheus"
-  url         = "http://172.20.103.62:9090"  
+  url         = "http://172.17.0.3:9090"  
   is_default  = true
 }
 
