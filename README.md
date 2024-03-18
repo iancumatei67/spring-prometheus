@@ -15,3 +15,15 @@ docker run -d -p 3000:3000 --name=grafana grafana/grafana-enterprise
 ##
 
 Then all we have left to do is Adding the data source of Prometheus in Grafana and  import the dashboard 
+
+# Running containers 
+<img width="1336" alt="containers" src="https://github.com/iancumatei67/spring-prometheus/assets/127155074/2e5fe6bc-cb76-4bb5-8226-50deece3b820">
+
+# Metrics 
+![metrics](https://github.com/iancumatei67/spring-prometheus/assets/127155074/a1ef19a7-51b0-4ab7-a34b-b81cd06909b5)
+
+# Prometheus for the spring-petclinc application
+![prometheus](https://github.com/iancumatei67/spring-prometheus/assets/127155074/e68e6878-a32c-49a3-aa52-1b5f15fb6ec8)
+
+# Grafana dashboard for the spring-petclinic application
+![grafana](https://github.com/iancumatei67/spring-prometheus/assets/127155074/bbb51d15-5fb1-49c3-b502-a94b97e00037)
